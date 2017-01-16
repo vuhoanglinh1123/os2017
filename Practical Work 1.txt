@@ -1,0 +1,66 @@
+#echo hello world
+hello world
+
+#passwd
+Changing password for vhlinh.
+
+#date
+Thứ hai, 16 Tháng một năm 2017 15:27:35 ICT
+
+#hostname
+vhlinh-HP-Pavilion-dv3500-Notebook-PC
+
+#arch
+x86_64
+
+#uname -a
+Linux vhlinh-HP-Pavilion-dv3500-Notebook-PC 4.4.0-59-generic #80-Ubuntu SMP Fri Jan 6 17:47:47 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+#dmesg
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.0-59-generic (buildd@lgw01-11) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #80-Ubuntu SMP Fri Jan 6 17:47:47 UTC 2017 (Ubuntu 4.4.0-59.80-generic 4.4.35)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-59-generic root=UUID=d59aa364-e19b-4bc5-a86f-84f34b66c255 ro quiet splash vt.handoff=7
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: Legacy x87 FPU detected.
+[    0.000000] x86/fpu: Using 'lazy' FPU context switches.
+
+#uptime
+ 15:33:37 up  2:02,  1 user,  load average: 0,68, 0,90, 1,43
+
+#who am i
+
+#whoami
+vhlinh
+
+#who
+vhlinh   tty7         2017-01-16 13:32 (:0)
+
+#id
+uid=1000(vhlinh) gid=1000(vhlinh) groups=1000(vhlinh),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+
+#last
+vhlinh   tty7         :0               Mon Jan 16 13:32    gone - no logout
+reboot   system boot  4.4.0-59-generic Mon Jan 16 20:31   still running
+vhlinh   tty7         :0               Sat Jan 14 22:14 - down   (01:54)
+reboot   system boot  4.4.0-57-generic Sat Jan 14 22:13 - 00:08  (01:55)
+vhlinh   tty7         :0               Fri Jan 13 16:14 - crash (1+05:59)
+reboot   system boot  4.4.0-57-generic Fri Jan 13 16:12 - 00:08 (1+07:56)
+vhlinh   tty7         :0               Wed Jan  4 17:09 - crash (8+23:03)
+reboot   system boot  4.4.0-57-generic Thu Jan  5 00:08 - 00:08 (10+00:00)
+vhlinh   tty7         :0               Mon Jan  2 13:58 - down   (09:54)
+reboot   system boot  4.4.0-57-generic Mon Jan  2 20:57 - 23:52  (02:55)
+
+#finger
+wtmp begins Sun Jan  1 17:44:59 2017
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+vhlinh    vhlinh     tty7           Jan 16 13:32 (:0)
+
+#w
+ 15:41:05 up  2:09,  1 user,  load average: 2,54, 1,54, 1,44
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+vhlinh   tty7     :0               13:32     ?     9:04   0.19s /sbin/upstart --user
