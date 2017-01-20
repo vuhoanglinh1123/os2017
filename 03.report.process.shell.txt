@@ -1,0 +1,76 @@
+#List all your running process
+#ps -e
+  PID TTY          TIME CMD
+    1 ?        00:00:01 systemd
+    2 ?        00:00:00 kthreadd
+    3 ?        00:00:00 ksoftirqd/0
+    5 ?        00:00:00 kworker/0:0H
+    7 ?        00:00:17 rcu_sched
+    8 ?        00:00:00 rcu_bh
+    9 ?        00:00:00 migration/0
+   10 ?        00:00:00 watchdog/0
+
+#Start a new process, gnome-calculator
+
+#Find process id of your newly-created process
+#ps -e | grep "gnome-cal*"
+ 9286 pts/4    00:00:00 gnome-calculato
+
+#Show its process status
+Name:	gnome-calculato
+State:	S (sleeping)
+Tgid:	9286
+Ngid:	0
+Pid:	9286
+PPid:	5600
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+Groups:	4 24 27 30 46 113 128 1000 
+NStgid:	9286
+NSpid:	9286
+NSpgid:	9286
+NSsid:	5600
+VmPeak:	  845944 kB
+VmSize:	  780540 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   34908 kB
+VmRSS:	   34908 kB
+VmData:	  521820 kB
+VmStk:	     136 kB
+VmExe:	     392 kB
+VmLib:	   59652 kB
+VmPTE:	     528 kB
+VmPMD:	      16 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+Threads:	4
+SigQ:	0/11864
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000180000000
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+Seccomp:	0
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	486
+nonvoluntary_ctxt_switches:	229
+
+#Pause it
+#kill -stop 9286
+
+#Resume it
+#kill -cont 9286
+
+#Terminate it
+#kill 9286
