@@ -157,16 +157,16 @@ Average waiting time:
 	w_P4: 11.7ms
 
 -SRTF:
-	w_P1: 0.0ms
-	w_P2: 0.0ms		w_avg = (0.0 + 0.0 + 0.0 + 4.1)/4
-	w_P3: 0.0ms		      = 1.025ms
+	w_P1: 10.0ms
+	w_P2: 1.0ms		w_avg = (10.0 + 1.0 + 0.0 + 4.1)/4
+	w_P3: 0.0ms		      = 3.775ms
 	w_P4: 4.1ms
 
 -RR:
-	w_P1: 0.0ms
-	w_P2: 0.6ms		w_avg = (0.0 + 0.6 + 1.0 + 1.7)/4
-	w_P3: 1.0ms		      = 0.825ms
-	w_P4: 1.7ms
+	w_P1: 10.0ms
+	w_P2: 7.6ms		w_avg = (10.0 + 7.6 + 1.0 + 8.7)/4
+	w_P3: 1.0ms		      = 6.825ms
+	w_P4: 8.7ms
 
 3/
 Average turn around time:
