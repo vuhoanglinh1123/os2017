@@ -96,7 +96,7 @@ int sem_destroy(sem_t *sem);
 
 
 int main() {
-	sem_init(&s, 0, 1);
+	sem_init(&s, 0, 8);
 
 	pthread_t tid_1, tid_2;
 	pthread_create(
